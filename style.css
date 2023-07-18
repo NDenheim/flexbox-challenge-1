@@ -1,0 +1,112 @@
+/* Descendent selector */
+
+.level-zero .field {
+    display: flex;
+}
+
+.level-zero .red {
+    align-self: flex-start;
+}
+
+
+
+.level-one .field {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+.level-two .field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.level-two .sheep {
+    align-self: center;
+}
+
+
+
+
+.level-three .field {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+
+
+.level-four .field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level-four .purple {
+    align-self: flex-start;
+}
+
+.level-four .red {
+    align-self: flex-end;
+}
+
+
+
+
+.level-five .field {
+    display: flex;
+}
+
+.level-five .red {
+    flex-grow: 2;
+}
+
+.level-five .purple {
+    flex-grow: 2;
+}
+
+
+
+
+.level-six .field {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.level-six .purple {
+    align-self: flex-start;
+}
+
+.level-six .blue {
+    flex-grow: 3;
+}
+
+.level-six .red {
+    flex-grow: 2;
+}
+
+
+
+
+.level-seven .field {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+.level-eight .field {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.level-eight .purple {
+    flex-grow: 2;
+}
